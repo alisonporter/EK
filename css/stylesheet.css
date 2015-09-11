@@ -57,14 +57,14 @@ h1 {
   height: 3rem;
   width: 3rem;
   position: absolute;
-  top: 85%;
+  top: 90%;
   left: 48%;
 }
 
-.writing {
+section {
   margin-top: 10rem;
   margin-left: 20%;
-  margin-bottom: 20%;
+  margin-bottom: 10rem;
   width: 60%;
 }
 
@@ -77,40 +77,100 @@ h2 {
 h3 {
   text-decoration: underline;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .row {
   width: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: inline-block;
 }
 
 .leading-column {
   text-align: right;
-  width: 19%;
+  min-width: 19%;
+  max-width: 19%;
   float: left;
   padding-right: 2rem;
   font-family: Consolas;
   font-size: 1.1rem;
 }
 
+h5 {
+  color: #00B4DC;
+}
+
 .main-column {
-  width: 30%;
+  min-width: 30%;
+  max-width: 30%;
   display: in-line;
   float: left;
   padding-left; 2rem;
   font-family: Helvetica;
 }
 
-.main-column p {
-  color: #787C7D;
-  font-size: 0.85rem;
+.main-column a {
+  color: #313233;
 }
 
-a {
+.main-column p {
+  color: #787C7D;
+  font-size: 0.75rem;
+}
+
+.About a {
   text-decoration: none;
   color: #313233;
+}
+
+.box {
+  display: inline-block;
+  border: 3px solid #787C7D;
+  text-align: center;
+  width: 46%;
+  margin: 13px;
+  height: 12rem;
+}
+
+.about-box {
+  padding-top: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  align-items: center;
+}
+
+.fa {
+  padding-top: 2.5rem;
+  padding-bottom: 0.1rem;
+  color: #00B4DC;
+}
+
+h6 {
+  font-family: Helvetica;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #313233;
+}
+
+.col-1-2 .fa {
+  color: #00B4DC;
+  width: 50%;
+  display: inline-block;
+  padding-bottom: 10rem;
+}
+
+.col-1-2 {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.twitter {
+  padding-left: 25%;
+}
+
+.linkedin {
+  padding-right: 25%;
 }
 
 
