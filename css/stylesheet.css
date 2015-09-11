@@ -174,7 +174,7 @@ h6 {
 }
 
 .gram {
-  height: 13rem;
+  height: 12rem;
   width: 24%;
   display: inline-block;
   padding-right: 1rem;
@@ -192,7 +192,9 @@ h6 {
   padding-bottom: 5rem;
 }
 
-
+.pic-row {
+  margin-left: 3rem;
+}
 
 
 
